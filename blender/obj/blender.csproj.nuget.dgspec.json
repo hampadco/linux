@@ -1,0 +1,336 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/Untitled/Desktop/linux/blender/blender.csproj": {}
+  },
+  "projects": {
+    "/Volumes/Untitled/Desktop/linux/blender/blender.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Untitled/Desktop/linux/blender/blender.csproj",
+        "projectName": "blender",
+        "projectPath": "/Volumes/Untitled/Desktop/linux/blender/blender.csproj",
+        "packagesPath": "/Users/apple/.nuget/packages/",
+        "outputPath": "/Volumes/Untitled/Desktop/linux/blender/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/apple/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Volumes/Untitled/Desktop/linux/SerialPortReader/SerialPortReader.csproj": {
+                "projectPath": "/Volumes/Untitled/Desktop/linux/SerialPortReader/SerialPortReader.csproj"
+              },
+              "/Volumes/Untitled/Desktop/linux/ViewModel/ViewModel.csproj": {
+                "projectPath": "/Volumes/Untitled/Desktop/linux/ViewModel/ViewModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNet.SignalR.JS": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.0, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/Untitled/Desktop/linux/DataAccess/DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Untitled/Desktop/linux/DataAccess/DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "/Volumes/Untitled/Desktop/linux/DataAccess/DataAccess.csproj",
+        "packagesPath": "/Users/apple/.nuget/packages/",
+        "outputPath": "/Volumes/Untitled/Desktop/linux/DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/apple/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Volumes/Untitled/Desktop/linux/Utility/Utility.csproj": {
+                "projectPath": "/Volumes/Untitled/Desktop/linux/Utility/Utility.csproj"
+              },
+              "/Volumes/Untitled/Desktop/linux/ViewModel/ViewModel.csproj": {
+                "projectPath": "/Volumes/Untitled/Desktop/linux/ViewModel/ViewModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/Untitled/Desktop/linux/SerialPortReader/SerialPortReader.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Untitled/Desktop/linux/SerialPortReader/SerialPortReader.csproj",
+        "projectName": "SerialPortReader",
+        "projectPath": "/Volumes/Untitled/Desktop/linux/SerialPortReader/SerialPortReader.csproj",
+        "packagesPath": "/Users/apple/.nuget/packages/",
+        "outputPath": "/Volumes/Untitled/Desktop/linux/SerialPortReader/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/apple/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Volumes/Untitled/Desktop/linux/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Volumes/Untitled/Desktop/linux/DataAccess/DataAccess.csproj"
+              },
+              "/Volumes/Untitled/Desktop/linux/ViewModel/ViewModel.csproj": {
+                "projectPath": "/Volumes/Untitled/Desktop/linux/ViewModel/ViewModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.IO": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/Untitled/Desktop/linux/Utility/Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Untitled/Desktop/linux/Utility/Utility.csproj",
+        "projectName": "Utility",
+        "projectPath": "/Volumes/Untitled/Desktop/linux/Utility/Utility.csproj",
+        "packagesPath": "/Users/apple/.nuget/packages/",
+        "outputPath": "/Volumes/Untitled/Desktop/linux/Utility/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/apple/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Volumes/Untitled/Desktop/linux/ViewModel/ViewModel.csproj": {
+                "projectPath": "/Volumes/Untitled/Desktop/linux/ViewModel/ViewModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/Untitled/Desktop/linux/ViewModel/ViewModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Untitled/Desktop/linux/ViewModel/ViewModel.csproj",
+        "projectName": "ViewModel",
+        "projectPath": "/Volumes/Untitled/Desktop/linux/ViewModel/ViewModel.csproj",
+        "packagesPath": "/Users/apple/.nuget/packages/",
+        "outputPath": "/Volumes/Untitled/Desktop/linux/ViewModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/apple/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
